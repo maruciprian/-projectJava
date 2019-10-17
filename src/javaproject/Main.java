@@ -19,5 +19,16 @@ public class Main {
 		break;
 		
 		}
+	System.out.println("Vrei sa mananci aici?:");
+	System.out.println("1.Da");
+	System.out.println("2.Nu");
+     int op2 = sc.nextInt();
+    		 switch(op2){
+    		 case 1: System.out.println("Ai ales sa mananci aici");
+    		 break;
+    		 
+    		 case 2: System.out.println("Ai ales sa mananci acasa");
+    		 break;
+    		 }
 	}
 }
